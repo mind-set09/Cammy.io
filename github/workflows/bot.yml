@@ -26,4 +26,4 @@ jobs:
     - name: Run Bot
       env:
         BOT_TOKEN: ${{ secrets.TOKEN }}
-      run: python main1.py
+      run: python app.py
