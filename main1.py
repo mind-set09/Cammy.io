@@ -35,9 +35,8 @@ async def start(ctx):
         "1. Agreement: By continuing, you agree to abide by the rules and guidelines set forth in this game.\n"
         "2. Roleplay: You are expected to immerse yourself in the roleplay world of Pokemon.\n"
         "3. Respect: Treat others with respect and kindness. Harassment and hate speech will not be tolerated.\n"
-        "4. Fair Play: Play fairly and avoid cheating or exploiting game mechanics.\n"
-        "5. Privacy: Do not share personal information or engage in any activities that compromise your privacy.\n"
-        "6. Enjoyment: Most importantly, have fun and enjoy your Pokemon adventure!"
+        "4. Privacy: Do not share personal information or engage in any activities that compromise your privacy.\n"
+        "5. Enjoyment: Most importantly, have fun and enjoy your Pokemon adventure!"
     )
     tos_embed.add_field(name="Terms and Conditions", value=tos_content, inline=False)
     await ctx.send(embed=tos_embed)
