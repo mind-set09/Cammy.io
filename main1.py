@@ -19,7 +19,7 @@ async def on_ready():
 @bot.command(name='start')
 async def start(ctx):
     # Welcome embed
-    welcome_embed = discord.Embed(title="Welcome to the Pokemon RPG!", description="To begin, please enter your name:", color=discord.Color.blue())
+    welcome_embed = discord.Embed(title="Welcome to the Cammy.io!", description="To begin, please enter your name:", color=discord.Color.blue())
     await ctx.send(embed=welcome_embed)
 
     def check_name(msg):
